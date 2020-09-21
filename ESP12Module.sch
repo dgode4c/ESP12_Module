@@ -95,8 +95,6 @@ Text Label 10350 2850 0    50   ~ 0
 RST
 Wire Wire Line
 	8100 3350 8000 3350
-Text Label 7600 3350 0    50   ~ 0
-VCC
 Wire Wire Line
 	7600 3350 7700 3350
 $Comp
@@ -621,4 +619,15 @@ Wire Wire Line
 Wire Wire Line
 	7950 3750 7950 3850
 Connection ~ 7950 3850
+$Comp
+L power:VCC #PWR?
+U 1 1 5F689818
+P 7600 3350
+F 0 "#PWR?" H 7600 3200 50  0001 C CNN
+F 1 "VCC" H 7615 3523 50  0000 C CNN
+F 2 "" H 7600 3350 50  0001 C CNN
+F 3 "" H 7600 3350 50  0001 C CNN
+	1    7600 3350
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
