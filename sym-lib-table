@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name ESP-12S)(type Legacy)(uri "C:/Users/User/Desktop/KiCadProjects/Symbol library/ESP-12S/ESP-12S.lib")(options "")(descr ""))
+  (lib (name ESP12Module-rescue)(type Legacy)(uri ${KIPRJMOD}/ESP12Module-rescue.lib)(options "")(descr ""))
+)
