@@ -621,4 +621,15 @@ Wire Wire Line
 Wire Wire Line
 	7950 3750 7950 3850
 Connection ~ 7950 3850
+$Comp
+L Amplifier_Audio:IR4301 U?
+U 1 1 5F6871D4
+P 3450 3675
+F 0 "U?" H 3450 4656 50  0000 C CNN
+F 1 "IR4301" H 3450 4565 50  0000 C CNN
+F 2 "Package_DFN_QFN:Infineon_PQFN-22-15-4EP_6x5mm_P0.65mm" H 3450 3675 50  0001 C CIN
+F 3 "https://www.infineon.com/dgdl/ir4301.pdf?fileId=5546d462533600a4015355d5fc691819" H 3450 3675 50  0001 C CNN
+	1    3450 3675
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
